@@ -11,17 +11,31 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.hangapps.fitorflab.MainActivity"
     android:orientation="vertical"
-    android:weightSum="3">
+    android:weightSum="13">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="right">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gear"
+            android:id="@+id/settingsBtn"
+            android:background="@android:color/transparent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:background="@drawable/rounded_corners"
         android:backgroundTint="#2ca5f5"
-        android:layout_weight="1"
+        android:layout_weight="4"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
-        android:id="@+id/weightBtn">
+        android:id="@+id/weightBtn"
+        android:layout_height="0dp">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -89,10 +103,10 @@
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:background="@drawable/rounded_corners"
         android:backgroundTint="#916bcd"
-        android:layout_weight="1"
+        android:layout_weight="4"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:id="@+id/yogaBtn">
@@ -163,10 +177,10 @@
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:background="@drawable/rounded_corners"
         android:backgroundTint="#52ad56"
-        android:layout_weight="1"
+        android:layout_weight="4"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:id="@+id/cardioBtn">

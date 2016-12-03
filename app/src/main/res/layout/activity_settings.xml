@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorDarkGrey">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#20000000"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:text="Settings"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textColor="@android:color/white"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp" />
+
+        <CheckBox
+            android:text="Night Mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nightModeChk"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:paddingStart="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:buttonTint="@android:color/white" />
+    </LinearLayout>
+</RelativeLayout>
