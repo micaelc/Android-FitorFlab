@@ -41,6 +41,6 @@ public class DetailsActivity extends AppCompatActivity {
         if (nightMode){
             mainBg.setBackgroundColor(getResources().getColor(R.color.colorDarkGrey, getApplicationContext().getTheme()));
         }
-        
+
     }
 }
